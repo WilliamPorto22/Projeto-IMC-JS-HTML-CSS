@@ -1,0 +1,11 @@
+body{
+    margin: 0px;
+    font-size: 15px;
+    font-family: 'Amatic SC', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+section{
+    background-image: linear-gradient(rgb(98 98 98 / 50%), rgb(0 0 0)), url(fundo.webp);
+}
