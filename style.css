@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0px;
     font-size: 15px;
     font-family: 'Amatic SC', sans-serif;
@@ -6,15 +6,57 @@ body{
     justify-content: center;
 
 }
-section{
+
+section {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-image: linear-gradient(rgb(98 98 98 / 50%), rgb(0 0 0)), url(fundo.webp);
     height: 100vh;
     width: 100vw;
 }
 
-h1{
+h1 {
+    display: flex;
     font-size: 57px;
-    color: aliceblue;
+    color: rgb(49 233 67 / 99%);
+    margin-bottom: 28px;
+}
+
+label{
+    color: black;
+    margin-right: 5px;
+    font: 1.5rem serif;
+    display: flex;
+    width: 97px;
+    height: 33px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    height: 26px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    width: 48vw;
+    border-radius: 10px;
+    background: rgb(21 82 27 / 99%);
+    flex-direction: column;
+    justify-content: center;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 5px;
 }
