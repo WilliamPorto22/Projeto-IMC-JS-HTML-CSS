@@ -4,7 +4,6 @@ body {
     font-family: 'Amatic SC', sans-serif;
     display: flex;
     justify-content: center;
-
 }
 
 section {
@@ -25,8 +24,7 @@ h1 {
 }
 
 label{
-    color: black;
-    margin-right: 5px;
+    color: #ffffff;
     font: 1.5rem serif;
     display: flex;
     width: 97px;
@@ -41,7 +39,7 @@ input{
     border: none;
     border-radius: 6px;
     font-size: 15px;
-    height: 26px;
+    height: 32px;
 }
 
 .container {
@@ -52,11 +50,38 @@ input{
     border-radius: 10px;
     background: rgb(21 82 27 / 99%);
     flex-direction: column;
-    justify-content: center;
 }
 .input{
     display: flex;
     align-items: center;
     justify-items: center;
     margin: 5px;
+    margin-top: 34px;
+}
+
+button{
+    width: 23%;
+    height: 5%;
+    font-size: 18px;
+    color: #fff;
+    background-color: #4cc22f;
+    position: absolute;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    margin-top: 234px;
+}
+
+button:hover {
+    width: 23%;
+    height: 5%;
+    font-size: 18px;
+    color: #fff;
+    background-color: #55a825;
+    border-color: #11442f;
+    position: absolute;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    margin-top: 234px;
 }
