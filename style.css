@@ -49,24 +49,6 @@ input{
     width: 205px;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    height: 80vh;
-    width: 39vw;
-    border-radius: 10px;
-    background: rgb(21 82 27 / 95%);
-    flex-direction: column;
-}
-.input{
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    margin: 5px;
-    margin-top: 34px;
-    margin-right: 40px;
-}
-
 button{
     width: 13%;
     height: 5%;
@@ -94,6 +76,25 @@ button:hover {
     border-radius: 16px;
     margin-top: 244px;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    width: 37vw;
+    border-radius: 10px;
+    background: rgb(21 82 27 / 95%);
+    flex-direction: column;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 5px;
+    margin-top: 34px;
+    margin-right: 40px;
+}
+
 .resultado{
     display: flex;
     margin-top: 77px;
@@ -108,4 +109,15 @@ button:hover {
     padding: 20px;
     box-sizing: border-box;
     user-select: none;
+}
+.end {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+    color: rgb(241, 233, 233);
+    background-color: rgb(30 34 30 / 68%);
+    padding: 7px 0px;
+    width: 100vw;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
 }
