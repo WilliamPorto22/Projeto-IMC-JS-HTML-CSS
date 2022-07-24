@@ -11,6 +11,8 @@ section {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-size: cover;
+    background-position: center;
     background-image: linear-gradient(rgb(98 98 98 / 50%), rgb(0 0 0)), url(fundo.webp);
     height: 100vh;
     width: 100vw;
@@ -20,35 +22,39 @@ h1 {
     display: flex;
     font-size: 57px;
     color: rgb(49 233 67 / 99%);
-    margin-bottom: 28px;
+    margin-bottom: 20px;
+    margin-top: 0px;
 }
 
 label{
-    color: #ffffff;
-    font: 1.5rem serif;
+    color: rgb(255, 255, 255);
+    font: 1.9rem "Amatic SC", sans-serif;
     display: flex;
-    width: 97px;
-    height: 33px;
-    justify-content: space-between;
-    align-items: center;
+    width: 0px;
+    margin-right: 50px;
+    justify-content: center;
 }
 
 input{
+    display: flex;
+    text-align: center;
     background-color: green;
-    color: white;
+    color: #f1e9e9;
     border: none;
     border-radius: 6px;
-    font-size: 15px;
-    height: 32px;
+    font-size: 30px;
+    font-family: 'Amatic SC', sans-serif;
+    height: 33px;
+    width: 205px;
 }
 
 .container {
     display: flex;
     align-items: center;
-    height: 70vh;
-    width: 48vw;
+    height: 80vh;
+    width: 39vw;
     border-radius: 10px;
-    background: rgb(21 82 27 / 99%);
+    background: rgb(21 82 27 / 95%);
     flex-direction: column;
 }
 .input{
@@ -57,25 +63,28 @@ input{
     justify-items: center;
     margin: 5px;
     margin-top: 34px;
+    margin-right: 40px;
 }
 
 button{
-    width: 23%;
+    width: 13%;
     height: 5%;
-    font-size: 18px;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 24px;
     color: #fff;
     background-color: #4cc22f;
     position: absolute;
     cursor: pointer;
     border: 1px solid transparent;
     border-radius: 16px;
-    margin-top: 234px;
+    margin-top: 244px;
 }
 
 button:hover {
-    width: 23%;
+    width: 13%;
     height: 5%;
-    font-size: 18px;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 24px;
     color: #fff;
     background-color: #55a825;
     border-color: #11442f;
@@ -83,5 +92,20 @@ button:hover {
     cursor: pointer;
     border: 1px solid transparent;
     border-radius: 16px;
-    margin-top: 234px;
+    margin-top: 244px;
+}
+.resultado{
+    display: flex;
+    margin-top: 77px;
+    align-items: center;
+    width: 350px;
+    height: 150px;
+    border-radius: 5px;
+    font: italic 1.5rem serif;
+    box-shadow: black 0px 0px 10px;
+    background: rgb(143 146 151);
+    color: rgb(36 98 42 / 95%);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
 }
