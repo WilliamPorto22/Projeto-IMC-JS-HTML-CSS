@@ -121,3 +121,28 @@ button:hover {
     display: flex;
     justify-content: center;
 }
+/* 
+.modal-container {
+    width: 100vh;
+    position: fixed;
+    display: none;
+    top: 30px;
+    z-index: 999;
+    justify-content: center;
+}
+.modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6%;
+    margin-left: 46%;
+    background-color: rgb(54 77 92);
+    border-radius: 6px;
+    padding: 35px;
+    width: 37vw;
+    height: 69vh;
+}
+img{
+    height: 250px;
+    width: 380px;
+} */
