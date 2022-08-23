@@ -4,6 +4,9 @@ body {
     font-family: 'Amatic SC', sans-serif;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
 }
 
 section {
@@ -43,10 +46,10 @@ input{
     color: #f1e9e9;
     border: 1px solid transparent;
     border-radius: 6px;
-    font-size: 30px;
+    font-size: 38px;
     font-family: 'Amatic SC', sans-serif;
-    height: 33px;
-    width: 205px;
+    height: 37px;
+    width: 213px;
 }
 
 button{
@@ -80,17 +83,17 @@ button:hover {
 .container {
     display: flex;
     align-items: center;
-    height: 80vh;
-    width: 37vw;
+    height: 525px;
+    width: 465px;
     border-radius: 10px;
     background: rgb(21 82 27 / 95%);
     flex-direction: column;
 }
+
 .input{
     display: flex;
     align-items: center;
     justify-items: center;
-    margin: 5px;
     margin-top: 34px;
     margin-right: 40px;
 }
@@ -110,39 +113,17 @@ button:hover {
     box-sizing: border-box;
     user-select: none;
 }
+
 .end {
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    font-size: 18px;
+    font-size: 22px;
     color: rgb(241, 233, 233);
     background-color: rgb(30 34 30 / 68%);
-    padding: 7px 0px;
+    padding: 12px 0px;
     width: 100vw;
+    height: 20px;
     margin-bottom: 0px;
     display: flex;
+    margin-top: -3px;
     justify-content: center;
 }
-/* 
-.modal-container {
-    width: 100vh;
-    position: fixed;
-    display: none;
-    top: 30px;
-    z-index: 999;
-    justify-content: center;
-}
-.modal{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 6%;
-    margin-left: 46%;
-    background-color: rgb(54 77 92);
-    border-radius: 6px;
-    padding: 35px;
-    width: 37vw;
-    height: 69vh;
-}
-img{
-    height: 250px;
-    width: 380px;
-} */
