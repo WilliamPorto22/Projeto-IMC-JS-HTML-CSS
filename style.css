@@ -50,15 +50,17 @@ input{
     font-family: 'Amatic SC', sans-serif;
     height: 37px;
     width: 213px;
+    outline: none;
 }
 
 button{
+    transition: all 1.2s ease 0s;
     width: 13%;
     height: 5%;
     font-family: 'Amatic SC', sans-serif;
     font-size: 24px;
     color: #fff;
-    background-color: #4cc22f;
+    background-color: #40b422;
     position: absolute;
     cursor: pointer;
     border: 1px solid transparent;
@@ -67,17 +69,10 @@ button{
 }
 
 button:hover {
-    width: 13%;
-    height: 5%;
-    font-family: 'Amatic SC', sans-serif;
-    font-size: 24px;
-    color: #fff;
-    background-color: #55a825;
-    border-color: #11442f;
-    position: absolute;
-    cursor: pointer;
-    border-radius: 16px;
-    margin-top: 244px;
+    font-weight: bolder; 
+    color: #112344;
+    background-color: #6be923;
+    border: 2px solid #112344;
 }
 
 .container {
